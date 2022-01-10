@@ -91,7 +91,7 @@ By popular demand, `colors` now ships with two types of usages!
 The super nifty way
 
 ```js
-var colors = require('colors');
+var colors = require('@euberdeveloper/colors');
 
 console.log('hello'.green); // outputs green text
 console.log('i like cake and pies'.underline.red); // outputs red underlined text
@@ -136,7 +136,7 @@ FORCE_COLOR=1 node myapp.js
 Or in code:
 
 ```javascript
-var colors = require('colors');
+var colors = require('@euberdeveloper/colors');
 colors.enable();
 colors.disable();
 ```
@@ -155,7 +155,7 @@ console.log(colors.green('Hello %s'), name);
 
 ```js
 
-var colors = require('colors');
+var colors = require('@euberdeveloper/colors');
 
 colors.setTheme({
   silly: 'rainbow',
@@ -211,7 +211,7 @@ console.log(colors.warn("this is a warning"));
 ### Combining Colors
 
 ```javascript
-var colors = require('colors');
+var colors = require('@euberdeveloper/colors');
 
 colors.setTheme({
   custom: ['red', 'underline']
