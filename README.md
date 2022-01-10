@@ -1,8 +1,10 @@
-# colors.js
+# @euberdeveloper/colors.js
 [![Build Status](https://travis-ci.org/Marak/colors.js.svg?branch=master)](https://travis-ci.org/Marak/colors.js)
 [![version](https://img.shields.io/npm/v/colors.svg)](https://www.npmjs.org/package/colors)
 [![dependencies](https://david-dm.org/Marak/colors.js.svg)](https://david-dm.org/Marak/colors.js)
 [![devDependencies](https://david-dm.org/Marak/colors.js/dev-status.svg)](https://david-dm.org/Marak/colors.js#info=devDependencies)
+
+**IMPORTANT**: This is a __fork__ of the [colors.js repo](https://github.com/Marak/colors.js). As it can be seen in [this article](https://snyk.io/blog/open-source-npm-packages-colors-faker/), the author ruined this 20-million-downloads package by adding a bug that takes to an infinite loop. The purpose of this repo is reverting it and, if the author will no more maintain it, provide an npm package whose updates with `npm update` will not induce bugs that could even make developers loose money.
 
 Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback, and check the `develop` branch for the latest bleeding-edge updates.
 
@@ -12,7 +14,7 @@ Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  
 
 ## Installation
 
-    npm install colors
+    npm install @euberdeveloper/colors
 
 ## colors and styles!
 
@@ -142,9 +144,9 @@ colors.disable();
 ## Console.log [string substitution](http://nodejs.org/docs/latest/api/console.html#console_console_log_data)
 
 ```js
-var name = 'Marak';
+var name = 'Eugenio';
 console.log(colors.green('Hello %s'), name);
-// outputs -> 'Hello Marak'
+// outputs -> 'Hello Eugenio'
 ```
 
 ## Custom themes
