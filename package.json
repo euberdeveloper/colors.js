@@ -7,6 +7,11 @@
         {
             "name": "DABH",
             "url": "https://github.com/DABH"
+        },
+        {
+            "name": "Eugenio Berretta",
+            "email": "euberdeveloper@gmail.com",
+            "url": "https://github.com/euberdeveloper"
         }
     ],
     "homepage": "https://github.com/Marak/colors.js",
