@@ -1,7 +1,7 @@
 {
     "name": "colors",
     "description": "get colors in your node.js console",
-    "version": "1.4.44-liberty-2",
+    "version": "1.4.5",
     "author": "Marak Squires",
     "contributors": [
         {
