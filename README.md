@@ -6,6 +6,8 @@
 
 **IMPORTANT**: This is a __fork__ of the [colors.js repo](https://github.com/Marak/colors.js). As it can be seen in [this article](https://snyk.io/blog/open-source-npm-packages-colors-faker/), the author ruined this 20-million-downloads package by adding a bug that takes to an infinite loop. The purpose of this repo is reverting it and, if the author will no more maintain it, provide an npm package whose updates with `npm update` will not induce bugs that could even make developers loose money.
 
+**UPDATE**: Deprecated in favour of https://www.npmjs.com/package/@dabh/colors.
+
 Please check out the [roadmap](ROADMAP.md) for upcoming features and releases.  Please open Issues to provide feedback, and check the `develop` branch for the latest bleeding-edge updates.
 
 ## get color and style in your node.js console
